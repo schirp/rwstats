@@ -30,7 +30,7 @@ wordMiner.next <- function(candidateWord, topN = 10) {
     tcCandidateTable$Freq <- with(tcCandidateTable, freq/sum(tcCandidateTable$freq))
     rownames(tcCandidateTable) <- NULL
 
-    output <- tcCandidateTable %>% select("character", "Freq")
+    output <- tcCandidateTable[c("character", "Freq")]
     colnames(output) <- c("Target Word", "Occurrence Freq")
 
     if (topN <= length(output$`Target Word`)) {
