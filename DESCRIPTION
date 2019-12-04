@@ -1,0 +1,14 @@
+Package: rwstats
+Title: Chinese character frequency in real world
+Version: 0.0.0.9000
+Authors@R: 'Yitao Ma <claret0127@gmail.com> [aut,cre]'
+Description: This package contains chinese character frequency data from news.
+Depends:
+    R (>= 3.3.2)
+Imports:
+    rlist,
+    tidyverse
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.1
