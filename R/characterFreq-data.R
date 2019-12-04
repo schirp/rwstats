@@ -18,9 +18,4 @@
 #' twoChar <- twoCharacters
 #' wordFreq <- oneCharacters
 
-install.packages("rlist")
-install.packages("tidyverse")
-library(rlist)
-library(tidyverse)
-data("characterTable")
 
