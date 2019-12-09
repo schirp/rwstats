@@ -16,7 +16,7 @@ wordMiner.previous <- function(candidateWord, topN = 10) {
   if(length(strsplit(candidateWord, '')[[1]]) != 1) {
     warning("Input must be single Chinese character.")
   } else {
-    tc <- twoCharacters
+    tc <- twoChar
     temp_df <- do.call(rbind,
                        sapply(as.character(tc$character),
                               FUN = function(x) strsplit(x,"")))
