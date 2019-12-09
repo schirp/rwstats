@@ -33,7 +33,7 @@ wordMiner.next <- function(candidateWord, topN = 10) {
     output <- tcCandidateTable[c("character", "Freq")]
     colnames(output) <- c("Target Word", "Occurrence Freq")
 
-    output <- complete.cases(output[1:topN,])
+    output <- output[which(is.na(output[1:topN,]$character) ==F),]
 
     if (topN <= length(output$`Target Word`)) {
       return(output)

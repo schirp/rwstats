@@ -6,7 +6,7 @@
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{\code{character}}{target character}
-#' \item{\code{feq}}{occurence of target character}
+#' \item{\code{freq}}{occurence of target character}
 #' \item{\code{pct}}{frequency of target character}
 #' }
 #' @examples
@@ -21,7 +21,7 @@
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{\code{character}}{target character}
-#' \item{\code{feq}}{occurence of target character}
+#' \item{\code{freq}}{occurence of target character}
 #' \item{\code{pct}}{frequency of target character}
 #' }
 #' @examples
@@ -36,7 +36,7 @@
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{\code{character}}{target character}
-#' \item{\code{feq}}{occurence of target character}
+#' \item{\code{freq}}{occurence of target character}
 #' \item{\code{pct}}{frequency of target character}
 #' }
 #' @examples
@@ -51,7 +51,7 @@
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{\code{character}}{target character}
-#' \item{\code{feq}}{occurence of target character}
+#' \item{\code{freq}}{occurence of target character}
 #' \item{\code{pct}}{frequency of target character}
 #' }
 #' @examples
@@ -66,7 +66,7 @@
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{\code{character}}{target character}
-#' \item{\code{feq}}{occurence of target character}
+#' \item{\code{freq}}{occurence of target character}
 #' \item{\code{pct}}{frequency of target character}
 #' }
 #' @examples

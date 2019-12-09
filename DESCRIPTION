@@ -7,7 +7,7 @@ Authors@R: c(
     person("Yitao", "Ma", , "zhangxinjin@wondersgroup.com", c("aut"))
     )
 Description: This package contains chinese character frequency data from 
-    news data from 2017 to 2019. Source of these news include Sina, China daily and Tencent
+    news data from 2017 to 2019. Source of these news include Sina, China daily and Tencent.
 Depends:
     R (>= 3.3.2)
 License: CC0
