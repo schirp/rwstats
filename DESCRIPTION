@@ -3,8 +3,8 @@ Title: Chinese Character Frequency in Real World
 Version: 0.0.0.9000
 Authors@R: c(
     person("Yitao", "Ma", , "claret0127@gmail.com", c("aut", "cre")),
+    person("Xinjin", "Zhang", , "zhangxinjin@wondersgroup.com", c("aut")), 
     person("Bin", "Cui", , "CB11302@RJH.COM.CN", c("aut")),
-    person("Yitao", "Ma", , "zhangxinjin@wondersgroup.com", c("aut"))
     )
 Description: This package contains chinese character frequency data from 
     news data from 2017 to 2019. Source of these news include Sina, China daily and Tencent.
