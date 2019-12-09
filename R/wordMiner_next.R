@@ -33,13 +33,13 @@ wordMiner.next <- function(candidateWord, topN = 10) {
     output <- tcCandidateTable[c("character", "Freq")]
     colnames(output) <- c("Target Word", "Occurrence Freq")
 
-    output <- output[1:topN,]
+    output <- complete.cases(output[1:topN,])
 
     if (topN <= length(output$`Target Word`)) {
-      return(output[complete.cases(output),])
+      return(output)
     } else {
       warning("list does not reach the specified length. \n")
-      return(doutput[complete.cases(output),])
+      return(output)
     }
   }
 }

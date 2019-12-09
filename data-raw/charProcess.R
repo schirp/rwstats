@@ -1,0 +1,16 @@
+oneChar <- read.csv2('data-raw/1f.csv', encoding = 'utf-8', header = T)
+twoChar <- read.csv2('data-raw/2f.csv', encoding = 'utf-8', header = F)
+threeChar <- read.csv2('data-raw/3f.csv', encoding = 'utf-8', header = F)
+fourChar <- read.csv2('data-raw/4f.csv', encoding = 'utf-8', header = F)
+fiveChar <- read.csv2('data-raw/5f.csv', encoding = 'utf-8', header = F)
+
+colnames(twoChar) <- colnames(oneChar)
+colnames(threeChar) <- colnames(oneChar)
+colnames(fourChar) <- colnames(oneChar)
+colnames(fiveChar) <- colnames(oneChar)
+
+usethis::use_data(oneChar)
+usethis::use_data(twoChar)
+usethis::use_data(threeChar)
+usethis::use_data(fourChar)
+usethis::use_data(fiveChar)
