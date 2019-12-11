@@ -2,6 +2,7 @@
 # rwstats
 
 <!-- badges: start -->
+[![Build Status](https://travis-ci.org/Flaretie/rwstats.svg?branch=master)](https://travis-ci.org/Flaretie/rwstats)
 <!-- badges: end -->
 
 The goal of rwstats is to ...
