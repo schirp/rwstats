@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # rwstats
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/Flaretie/rwstats.svg?branch=master)](https://travis-ci.org/Flaretie/rwstats)
 <!-- badges: end -->
 
 The goal of rwstats is to ...
