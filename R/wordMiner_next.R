@@ -9,8 +9,8 @@
 #' @return A dataframe containing the next word and its occurrence and frequency
 #' @export
 #' @examples
-#' wordMiner.next("知")
-#' wordMiner.next("有", 30)
+#' wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][1])
+#' wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
 #'
 wordMiner.next <- function(candidateWord, topN = 10) {
   if(length(strsplit(candidateWord, '')[[1]]) != 1) {
