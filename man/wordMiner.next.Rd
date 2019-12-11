@@ -20,7 +20,6 @@ by a given chinese character based on real world
 chinese character frequency Statistics table.
 }
 \examples{
-wordMiner.next("知")
-wordMiner.next("有", 30)
-
+wordMiner.next(strsplit(levels(twoChar$character)[99], "")[[1]][1])
+wordMiner.next(strsplit(levels(twoChar$character)[99], "")[[1]][2], 15)
 }
