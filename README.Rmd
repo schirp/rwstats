@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # rwstats
 
 <!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/rwstats)](https://CRAN.R-project.org/package=rwstats)
 <!-- badges: end -->
 
 The goal of rwstats is to ...

@@ -23,4 +23,8 @@ chinese character frequency Statistics table.
 wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][1])
 wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
 
+\dontrun{
+wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][1])
+wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
+}
 }

@@ -12,6 +12,10 @@
 #' wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][1])
 #' wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
 #'
+#' \dontrun{
+#' wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][1])
+#' wordMiner.next(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
+#' }
 wordMiner.next <- function(candidateWord, topN = 10) {
   if(length(strsplit(candidateWord, '')[[1]]) != 1) {
     warning("Input must be single Chinese character.")
