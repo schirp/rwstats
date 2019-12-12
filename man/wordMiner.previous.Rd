@@ -21,7 +21,7 @@ chinese character frequency Statistics table.
 }
 \examples{
 \dontrun{
-wordMiner.previous("知")
-wordMiner.previous("有", 20)
+wordMiner.previous(strsplit(levels(twoChar$character)[988], "")[[1]][1])
+wordMiner.previous(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
 }
 }
