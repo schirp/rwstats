@@ -1,6 +1,6 @@
 Package: rwstats
 Title: Chinese Character Frequency in Real World
-Version: 0.0.0.9000
+Version: 0.0.0.9040
 Authors@R: c(
     person("Yitao", "Ma", , "claret0127@gmail.com", c("aut", "cre")),
     person("Xinjin", "Zhang", , "zhangxinjin@wondersgroup.com", c("aut")), 
