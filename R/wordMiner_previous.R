@@ -9,12 +9,9 @@
 #' @return A dataframe containing the previous word and its occurrence and frequency
 #' @export
 #' @examples
-#' wordMiner.previous(strsplit(levels(twoChar$character)[988], "")[[1]][1])
-#' wordMiner.previous(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
-#'
 #' \dontrun{
-#' wordMiner.previous(strsplit(levels(twoChar$character)[988], "")[[1]][1])
-#' wordMiner.previous(strsplit(levels(twoChar$character)[988], "")[[1]][2], 20)
+#' wordMiner.previous("知")
+#' wordMiner.previous("有", 20)
 #' }
 wordMiner.previous <- function(candidateWord, topN = 10) {
   if(length(strsplit(candidateWord, '')[[1]]) != 1) {
