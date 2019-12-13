@@ -6,8 +6,7 @@ Authors@R: c(
     person("Xinjin", "Zhang", , "zhangxinjin@wondersgroup.com", c("aut")), 
     person("Bin", "Cui", , "CB11302@RJH.COM.CN", c("aut"))
     )
-Description: It contains Chinese character frequency data based on 
-    news data from 2017 to 2019. Source of these news include Sina, China daily and Tencent.
+Description: It contains Chinese character frequency data based on news data from 2017 to 2019. 
 Depends:
     R (>= 3.3.2)
 License: CC0
