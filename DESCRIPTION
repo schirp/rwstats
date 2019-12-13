@@ -1,12 +1,12 @@
 Package: rwstats
 Title: Chinese Character Frequency in Real World
-Version: 0.0.0.9040
+Version: 0.1
 Authors@R: c(
     person("Yitao", "Ma", , "claret0127@gmail.com", c("aut", "cre")),
     person("Xinjin", "Zhang", , "zhangxinjin@wondersgroup.com", c("aut")), 
     person("Bin", "Cui", , "CB11302@RJH.COM.CN", c("aut"))
     )
-Description: This package contains chinese character frequency data from 
+Description: It contains Chinese character frequency data based on 
     news data from 2017 to 2019. Source of these news include Sina, China daily and Tencent.
 Depends:
     R (>= 3.3.2)
