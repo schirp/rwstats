@@ -19,7 +19,7 @@ library(rwstats)
 ```
 
 ## Metadata
-`oneChar` contains the frequency of single Chinese characters
+`oneChar` contains the frequency of single Chinese characters.  
 `twoChar` `threeChar` `fourChar` `fiveChar` contain the frequency of Chinese words of two to five characters
 
 ## Example
