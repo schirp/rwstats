@@ -5,15 +5,22 @@
 [![Build Status](https://travis-ci.org/Flaretie/rwstats.svg?branch=master)](https://travis-ci.org/Flaretie/rwstats)
 <!-- badges: end -->
 
-The goal of rwstats is to ...
+This package allows users to get the frequency of occurrence of Chinese characters in the real world.
+Our statistics are based on news data which includes Tencent, Sina and China Daily and People's daily
+
 
 ## Installation
 
-You can install the released version of rwstats from [CRAN](https://CRAN.R-project.org) with:
+You can install the development version version of rwstats with:
 
 ``` r
-install.packages("rwstats")
+devtools::install_github("Flaretie/rwstats")
+library(rwstats)
 ```
+
+## Metadata
+`oneChar` contains the frequency of single Chinese characters
+`twoChar` `threeChar` `fourChar` `fiveChar` contain the frequency of Chinese words of two to five characters
 
 ## Example
 
