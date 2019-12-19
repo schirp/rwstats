@@ -3,6 +3,8 @@
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/Flaretie/rwstats.svg?branch=master)](https://travis-ci.org/Flaretie/rwstats)
+
+[![CRAN status](https://www.r-pkg.org/badges/version/rwstats)](https://cran.r-project.org/package=rwstats)
 <!-- badges: end -->
 
 This package allows users to get the frequency of occurrence of Chinese characters in the real world.
