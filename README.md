@@ -13,23 +13,35 @@ Our statistics are based on news data which includes Tencent, Sina and China Dai
 
 ## Installation
 
-You can install the development version version of rwstats with:
+You can install the development version of rwstats with:
 
 ``` r
 devtools::install_github("Flaretie/rwstats")
 library(rwstats)
 ```
+Install the rwstats from CRAN with:
+
+``` r
+install.packages("rwstats")
+library(rwstats)
+```
 
 ## Metadata
-`oneChar` contains the frequency of single Chinese characters.  
-`twoChar` `threeChar` `fourChar` `fiveChar` contain the frequency of Chinese words of two to five characters
+`oneChar` contains the frequency of single Chinese characters. eg. "可"  
+`twoChar` contain the frequency of Chinese words of two characters. eg. "可以"  
+`threeChar` contain the frequency of Chinese words of three characters. eg. "不可以"  
+`fourChar` contain the frequency of Chinese words of four characters. eg. "可不可以"  
+`fiveChar` contain the frequency of Chinese words of five characters. eg. "可以不可以"  
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+## Examples
 
 ``` r
 library(rwstats)
-## basic example code
+## get the word frequency table of C
+head(oneChar)
+head(fourChar)
+
+## get the appearence rate of next word
+wordMiner.next("可")
 ```
 
