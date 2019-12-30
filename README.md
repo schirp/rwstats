@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/Flaretie/rwstats.svg?branch=master)](https://travis-ci.org/Flaretie/rwstats)
+[![Build status](https://ci.appveyor.com/api/projects/status/423fuqf529c9elml/branch/master?svg=true)](https://ci.appveyor.com/project/Flaretie/rwstats-n8p72/branch/master)
 [![CRAN status](https://www.r-pkg.org/badges/version/rwstats)](https://cran.r-project.org/package=rwstats)
 <!-- badges: end -->
 
