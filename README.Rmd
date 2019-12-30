@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/rwstats)](https://CRAN.R-project.org/package=rwstats)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/Flaretie/rwstats?branch=master&svg=true)](https://ci.appveyor.com/project/Flaretie/rwstats)
 <!-- badges: end -->
 
 The goal of rwstats is to ...
